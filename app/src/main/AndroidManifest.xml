@@ -58,6 +58,15 @@
         <activity
             android:name=".Lava2" >
         </activity>
+        <activity
+            android:name=".Area1" >
+        </activity>
+        <activity
+            android:name=".Area2" >
+        </activity>
+        <activity
+            android:name=".Area3" >
+        </activity>
 
     </application>
 

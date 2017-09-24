@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Diveghat"
+                    android:textAlignment="center"
+                    android:textSize="36sp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="303dp"
+                    android:layout_marginTop="-15dp"
+                    android:layout_weight="0.01"
+                    app:srcCompat="@drawable/area1" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:text="Diveghat is a best place near the Pune city to study the types of lava flows, which exsist in DVP. As here both types of flows are exposed in a very short distance of 3-4Kms along the Pune – Baramati road .The flows in the Dive Ghat area, as the description says, are of two types, Pahoehoe and A`a . The place near Wadki Nala, from where we started the field work, contain an intrusive body and two Pahoehoe flows, which are exposed here at base of the hill, in this locality, which is then followed by five A`A type of flows, between the elevation 682 MSL-802 MSL. At places these A`A flows are separated from one another by the presence of Red Bole. The base of seventh flow shows presence of Brown Bole. These are identified by the particular characters which are described in the field features of basaltic flow in the beginning.\n It is part of a hill ranges which trends east-west. It has a maximum elevation of  980 mt. and minimum elevation of 640 mt. It is marked by a steep slope on its Northern side, which also can be inferred from the closely spaced contours on toposheet. While on its Small part it attains a plateau nature and hence shows widening of contours. This hill range acts as a drainage divide between the drainage basins of both the sides. Drainage pattern on both sides is dominantly dendritic in nature. A water body called Mastani Lake is present at the valley side of Diveghat, is one of the historical sites in the study area."
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
