@@ -67,6 +67,36 @@
         <activity
             android:name=".Area3" >
         </activity>
+        <activity
+            android:name=".G1" >
+        </activity>
+        <activity
+            android:name=".G2" >
+        </activity>
+        <activity
+            android:name=".G3" >
+        </activity>
+        <activity
+            android:name=".G4" >
+        </activity>
+        <activity
+            android:name=".G5" >
+        </activity>
+        <activity
+            android:name=".G6" >
+        </activity>
+        <activity
+            android:name=".G7" >
+        </activity>
+        <activity
+            android:name=".G8" >
+        </activity>
+        <activity
+            android:name=".G9" >
+        </activity>
+        <activity
+            android:name=".G10" >
+        </activity>
 
     </application>
 

@@ -3,10 +3,12 @@ package com.anil.geologyofpune;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.Toast;
 
 /**
  * Created by ANIL on 23/09/2017.
@@ -69,6 +71,6 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
 
-}
+    }
+   }

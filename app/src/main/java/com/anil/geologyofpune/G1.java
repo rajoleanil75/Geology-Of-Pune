@@ -9,38 +9,39 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 /**
- * Created by ANIL on 24/09/2017.
+ * Created by ANIL on 25/09/2017.
  */
 
-public class Gallery extends AppCompatActivity {
-    final Context context=this;
+public class G1 extends AppCompatActivity {
+    final Context context = this;
     Button h;
-    ImageButton p,n;
+    ImageButton p, n;
+
     @Override
     public void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.gallery);
-        p= (ImageButton) findViewById(R.id.p);
-        h= (Button) findViewById(R.id.h);
-        n= (ImageButton) findViewById(R.id.n);
+        setContentView(R.layout.g1);
+        p = (ImageButton) findViewById(R.id.p);
+        h = (Button) findViewById(R.id.h);
+        n = (ImageButton) findViewById(R.id.n);
         p.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(context,G10.class);
+                Intent intent = new Intent(context, Gallery.class);
                 startActivity(intent);
             }
         });
         n.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(context,G1.class);
+                Intent intent = new Intent(context, G2.class);
                 startActivity(intent);
             }
         });
         h.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(context,Home.class);
+                Intent intent = new Intent(context, Home.class);
                 startActivity(intent);
             }
         });
