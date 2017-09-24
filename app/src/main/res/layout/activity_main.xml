@@ -15,7 +15,7 @@
         android:paddingRight="50dp"
         android:text="Nowrosjee Wadia College Department Of Geology"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
+        android:textColor="?android:attr/textColorPrimary"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,13 +23,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.187" />
+        app:layout_constraintVertical_bias="0.068" />
 
     <Button
         android:id="@+id/start"
         android:layout_width="149dp"
         android:layout_height="73dp"
-        android:layout_marginTop="8dp"
         android:text="START"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="24sp"
@@ -37,8 +36,22 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.494"
-        tools:layout_editor_absoluteY="351dp" />
+        android:layout_marginBottom="108dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Geology Of Pune"
+        android:textAlignment="center"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/start"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </android.support.constraint.ConstraintLayout>

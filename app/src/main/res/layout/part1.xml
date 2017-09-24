@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="History"
+                android:textAlignment="center"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                android:layout_marginTop="-15dp"
+                android:layout_weight="0.01"
+                app:srcCompat="@drawable/geolgymap" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="The Pune district is covered by basaltic lava flows of Deccan Traps with narrow strips of alluvium along the rivers (GSI; 2001b) and a thin cover of soil everywhere. The region has a typical trappean topography with flap topped hills and step like terraces produced by differential weathering and erosion. The terraces and plateaus have steep slopes when compact flows occur whereas the vesicular and amygdaloidal basalts have produced gentler slopes. \n Earlier studies by Beane et al., (1986) have distinguished two types of basalt flows in the Western Ghats of the Deccan; compound flows and simple (compact) flows. Three sub groups of the Daccan Basalt were based on combination of field mapping with petrochemical and isotopic studies which divided the basalt stack of the western ghats into ten formations. The ten formations fall naturally into three subgroups of the Deccan Basalt Group based on field characteristics and chemical and isotopic composition"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -30,7 +30,42 @@ public class Home extends AppCompatActivity {
         intro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(context,Home.class);
+                Intent intent=new Intent(context,Intro.class);
+                startActivity(intent);
+            }
+        });
+        lava.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(context,Lava.class);
+                startActivity(intent);
+            }
+        });
+        area.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(context,Area.class);
+                startActivity(intent);
+            }
+        });
+        gallery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(context,Gallery.class);
+                startActivity(intent);
+            }
+        });
+        mineral.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(context,Mineral.class);
+                startActivity(intent);
+            }
+        });
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(context,About.class);
                 startActivity(intent);
             }
         });
