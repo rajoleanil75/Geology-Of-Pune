@@ -52,6 +52,12 @@
         <activity
             android:name=".Part5" >
         </activity>
+        <activity
+            android:name=".Lava1" >
+        </activity>
+        <activity
+            android:name=".Lava2" >
+        </activity>
 
     </application>
 
