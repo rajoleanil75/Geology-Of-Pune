@@ -4,8 +4,22 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="About"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="About" />
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="This app is designed and develop by Department Of Geology and all right reserved by Department of Geology.\n If any query regarding the information in the app, Please contact Prof. Kiran Kumbhar, Department of Geology, Asst. Professor, Nowrosjee Wadia College, Pune-01"
+        android:textSize="18sp" />
 </LinearLayout>

@@ -97,6 +97,28 @@
         <activity
             android:name=".G10" >
         </activity>
+        <activity
+            android:name=".M1" >
+        </activity>
+        <activity
+            android:name=".M2" >
+        </activity>
+        <activity
+            android:name=".M4" >
+        </activity>
+        <activity
+            android:name=".M5" >
+        </activity>
+        <activity
+            android:name=".M6" >
+        </activity>
+        <activity
+            android:name=".M7" >
+        </activity>
+        <activity
+            android:name=".M8" >
+        </activity>
+
 
     </application>
 
